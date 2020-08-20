@@ -1,5 +1,5 @@
 {
-  "name": "node-gerrit",
+  "name": "node-gerrit-push",
   "version": "1.0.0",
   "description": "A command tool for gerrit push.",
   "main": "index.js",
