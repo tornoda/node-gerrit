@@ -31,6 +31,5 @@ function pushGerrit(commitId, branchName) {
   if (!commitId) commitId = 'HEAD'
   const cmd = `git push origin ${commitId}:refs/for/${branchName}`
   console.log("cmd", cmd)
-  return Promise.resolve()
-  // return exec(cmd)
+  return exec(cmd)
 }
