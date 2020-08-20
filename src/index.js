@@ -3,7 +3,7 @@ const argv = require('minimist')(process.argv.slice(2))
 
 const { c } = argv
 
-if (!c && !commitId) {
+if (!c || !commitId) {
   push()
 } else {
   push(c)

@@ -30,6 +30,6 @@ function getCurrentBranch() {
 function pushGerrit(commitId, branchName) {
   if (!commitId) commitId = 'HEAD'
   const cmd = `git push origin ${commitId}:refs/for/${branchName}`
-  console.log("cmd", cmd)
+  log.info(`Runing: ${cmd}`)
   return exec(cmd)
 }
