@@ -18,8 +18,5 @@
   },
   "bin": {
     "gerrit": "./index.js"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
