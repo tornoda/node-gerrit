@@ -1,6 +1,6 @@
 {
   "name": "node-gerrit-push",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command tool for gerrit push.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
   },
   "bin": {
     "gerrit": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tornoda/node-gerrit-push"
   }
 }
